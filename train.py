@@ -167,4 +167,3 @@ prediction = {    'ZERO': result[0][0],
 prediction = sorted(prediction.items(), key=operator.itemgetter(1), reverse=True)
 print(prediction)
 
-
